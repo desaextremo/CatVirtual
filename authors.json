@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "638cf4291d2edd181b1363ee"
+  },
+  "fisrtName": "GABRIEL",
+  "lastName": "GARCIA MARQUEZ",
+  "dateBorn": {
+    "$date": {
+      "$numberLong": "-1351450800000"
+    }
+  },
+  "country": "COLOMBIA",
+  "about": ""
+},{
+  "_id": {
+    "$oid": "638cf4291d2edd181b1363ef"
+  },
+  "fisrtName": "MARIO",
+  "lastName": "VARGAS LLOSA",
+  "dateBorn": {
+    "$date": {
+      "$numberLong": "-1065466800000"
+    }
+  },
+  "country": "COLOMBIA",
+  "about": ""
+},{
+  "_id": {
+    "$oid": "638cf4291d2edd181b1363f0"
+  },
+  "fisrtName": "JULIO",
+  "lastName": "VERNE",
+  "dateBorn": {
+    "$date": {
+      "$numberLong": "-2044119824000"
+    }
+  },
+  "country": "FRANCIA",
+  "about": ""
+},{
+  "_id": {
+    "$oid": "638cf4291d2edd181b1363f1"
+  },
+  "fisrtName": "LEONARDO",
+  "lastName": "PADURA",
+  "dateBorn": {
+    "$date": {
+      "$numberLong": "-449089200000"
+    }
+  },
+  "country": "CUBA",
+  "about": ""
+},{
+  "_id": {
+    "$oid": "638cf4291d2edd181b1363f2"
+  },
+  "fisrtName": "ISABEL",
+  "lastName": "ALLENDE",
+  "dateBorn": {
+    "$date": {
+      "$numberLong": "-879879600000"
+    }
+  },
+  "country": "CHILE",
+  "about": ""
+}]

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b97b"
+  },
+  "name": "NOVELAS",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+},{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b97c"
+  },
+  "name": "CUENTOS",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+},{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b97d"
+  },
+  "name": "REPORTAJE",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+},{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b97e"
+  },
+  "name": "CIENCIA FICCIÓN",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+},{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b97f"
+  },
+  "name": "NOVELAS AVENTURAS",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+},{
+  "_id": {
+    "$oid": "638ab7b62e608b4038b7b980"
+  },
+  "name": "NOVELA NEGRA",
+  "_class": "com.unab.catvirtual.catvirtualg31.entity.Category"
+}]
