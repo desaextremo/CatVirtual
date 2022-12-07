@@ -1,0 +1,94 @@
+db.books.find({ price:{ $lte:75000 } }).sort({price:-1})
+db.books.find({ price:{ $lt:75000 } }).sort({price:-1})
+db.books.find({ price : { $gte :  50000, $lte : 65000}}).sort({price:-1})
+
+https://www.statology.org/mongodb-like-query/
+
+contiene
+db.books.find({title: {$regex : /OTOÑO/i}})
+al inicio
+db.books.find({title: {$regex : /^C/i}})
+al final
+db.books.find({title: {$regex : /AYER$/i}})
+
+
+db.authors.find({_id : ObjectId("638f979151acf982df27453a")})	
+db.genders.insertMany(
+[
+  {
+    _id: ObjectId("638f778751acf982df27452c"),
+    name: 'NOVELAS',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  },
+  {
+    _id: ObjectId("638f778751acf982df27452d"),
+    name: 'CUENTOS',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  },
+  {
+    _id: ObjectId("638f778751acf982df27452e"),
+    name: 'REPORTAJE',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  },
+  {
+    _id: ObjectId("638f778751acf982df27452f"),
+    name: 'CIENCIA FICCI?N',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  },
+  {
+    _id: ObjectId("638f778751acf982df274530"),
+    name: 'NOVELAS AVENTURAS',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  },
+  {
+    _id: ObjectId("638f778751acf982df274531"),
+    name: 'NOVELA NEGRA',
+    _class: 'com.unab.catvirtual.catvirtualg31.entity.Category'
+  }
+]
+)
+
+db.authors.insertMany(
+[
+  {
+    _id: ObjectId("638f950b51acf982df274537"),
+    fisrtName: 'GABRIEL',
+    lastName: 'GARCIA MARQUEZ',
+    country: 'COLOMBIA',
+	dateBorn: new Date("1927-03-06"),
+    about: 'PREMIO NOBEL DE LITERATURA COLOMBIANO'
+  },
+  {
+    _id: ObjectId("638f975f51acf982df274538"),
+    fisrtName: 'LEONARDO',
+    lastName: 'PADURA',
+    country: 'CUBA',
+	dateBorn: new Date("1955-10-09"),
+    about: 'ESCRITOR CUBANO'
+  },
+  {
+    _id: ObjectId("638f977351acf982df274539"),
+    fisrtName: 'JULIO',
+    lastName: 'VERNE',
+    country: 'FRANCIA',
+	dateBorn: new Date("1828-02-08"),
+    about: 'ESCRITOR FUTURISTA QUE NOS PUSO A SOÑAR'
+  },
+  {
+    _id: ObjectId("638f979151acf982df27453a"),
+    fisrtName: 'MARIO',
+    lastName: 'VARGAS LLOSA',
+    country: 'COLOMBIA',
+	dateBorn: new Date("1936-03-28"),
+    about: 'PREMIO NOBEL DE LITERATURA PERUANO'
+  },
+  {
+    _id: ObjectId("638f97c451acf982df27453b"),
+    fisrtName: 'ISABEL',
+    lastName: 'ALLENDE',
+    country: 'CHILE',
+	dateBorn: new Date("1942-08-02"),
+    about: 'SUPER ESCRITORA'
+  }
+]
+)
